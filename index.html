@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Audio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Interactive Audio Player: Play Sound Clips with Button Clicks and Keyboard Presses</h1>
+    <div class="container">
+         <audio id="Audio" controls></audio>
+        <button type="button" id="a" onclick="playAudio('/assets/key01.mp3')">A</button>
+            <button type="button" class="sharp" id="s" onclick="playAudio('/assets/key02.mp3')">S</button>
+            <button type="button" id="d" onclick="playAudio('/assets/key02.mp3')">D</button>
+            <button type="button" class="sharp" id="f" onclick="playAudio('/assets/key03.mp3')">F</button>
+            <button type="button" id="g" onclick="playAudio('/assets/key04.mp3')">G</button>
+        <button type="button"  id="h" onclick="playAudio('/assets/key05.mp3')">H</button>
+        <button type="button"  class="sharp" id="j" onclick="playAudio('/assets/key06.mp3')">J</button>
+        <button type="button" id="k" onclick="playAudio('/assets/key07.mp3')">K</button>
+        <button type="button" class="sharp" id="l" onclick="playAudio('/assets/key08.mp3')">L</button>
+        <button type="button" id="q" onclick="playAudio('/assets/key09.mp3')">Q</button>
+        <button type="button" class="sharp" id="w" onclick="playAudio('/assets/key10.mp3')">W</button>
+        <button type="button" id="p" onclick="playAudio('/assets/key11.mp3')">P</button>
+        <button type="button" id="z">Z</button>
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
